@@ -1,0 +1,12 @@
+[22-Apr-2022 12:55:50 America/Bogota] PHP Notice:  Undefined index: Anio in /home/u933403530/domains/tusemilla.com.co/public_html/admin/PHPExcel/Examples/report_consignacionmensual.php on line 8
+[22-Apr-2022 12:55:50 America/Bogota] PHP Notice:  Undefined index: Mes in /home/u933403530/domains/tusemilla.com.co/public_html/admin/PHPExcel/Examples/report_consignacionmensual.php on line 9
+[22-Apr-2022 12:55:50 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/u933403530/domains/tusemilla.com.co/public_html/admin/PHPExcel/Examples/report_consignacionmensual.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/u933403530/domains/tusemilla.com.co/public_html/admin/PHPExcel/Examples/report_consignacionmensual.php on line 47
+[22-Apr-2022 12:55:52 America/Bogota] PHP Notice:  Undefined index: Anio in /home/u933403530/domains/tusemilla.com.co/public_html/admin/PHPExcel/Examples/report_consignacionmensual.php on line 8
+[22-Apr-2022 12:55:52 America/Bogota] PHP Notice:  Undefined index: Mes in /home/u933403530/domains/tusemilla.com.co/public_html/admin/PHPExcel/Examples/report_consignacionmensual.php on line 9
+[22-Apr-2022 12:55:52 America/Bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/u933403530/domains/tusemilla.com.co/public_html/admin/PHPExcel/Examples/report_consignacionmensual.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/u933403530/domains/tusemilla.com.co/public_html/admin/PHPExcel/Examples/report_consignacionmensual.php on line 47

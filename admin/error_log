@@ -1,0 +1,760 @@
+[04-Mar-2021 11:39:13 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:39:13 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/aggAdmon.php(2): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(235): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:39:19 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:39:19 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/aggAdmon.php(2): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(235): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:41:41 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:41:41 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/reboteDocumento.php(5): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(219): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:42:53 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:42:53 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/reboteDocumento.php(5): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(219): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:43:52 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:43:52 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(3): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:43:59 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:43:59 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(3): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:44:34 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:44:34 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(3): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:45:37 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:45:37 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(3): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:53:09 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:53:09 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(3): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:53:32 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:53:32 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/aggAdmon.php(2): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(235): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:53:43 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:53:43 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(3): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:56:59 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:56:59 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(3): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:57:41 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:57:41 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(3): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:58:33 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:58:33 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(3): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:58:46 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:58:46 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(3): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 11:59:26 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 11:59:26 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/aggAdmon.php(2): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(235): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 12:01:12 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 12:01:12 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/aggAdmon.php(2): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(235): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 12:03:36 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 12:03:36 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/gencertadmon.php(7): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(227): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 12:06:13 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 12:06:13 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(7): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 12:06:38 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 12:06:38 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(7): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 12:06:49 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 12:06:49 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(7): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 12:07:59 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 12:07:59 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/aggAdmon.php(6): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(235): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 12:09:42 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 12:09:42 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(7): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 12:10:37 america/bogota] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 2
+[04-Mar-2021 12:10:37 america/bogota] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_connect_errno() in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php:5
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php(7): include()
+#1 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include('/home3/johfrey1...')
+#2 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/conexion.php on line 5
+[04-Mar-2021 12:12:08 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php:11
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include()
+#1 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php on line 11
+[04-Mar-2021 12:12:21 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php:11
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include()
+#1 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php on line 11
+[04-Mar-2021 12:14:32 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php:11
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include()
+#1 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php on line 11
+[04-Mar-2021 12:14:54 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php:11
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include()
+#1 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php on line 11
+[04-Mar-2021 12:15:04 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php:10
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include()
+#1 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php on line 10
+[04-Mar-2021 12:16:36 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php:11
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include()
+#1 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php on line 11
+[04-Mar-2021 12:16:51 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php:11
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include()
+#1 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php on line 11
+[04-Mar-2021 12:17:34 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php:11
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(215): include()
+#1 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDocument.php on line 11
+[04-Mar-2021 14:03:40 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[04-Mar-2021 14:03:40 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[04-Mar-2021 14:03:40 america/bogota] PHP Warning:  include(): Failed opening 'models/operativos.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[04-Mar-2021 14:03:41 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[04-Mar-2021 14:03:41 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[04-Mar-2021 14:03:41 america/bogota] PHP Warning:  include(): Failed opening 'models/operativos.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[04-Mar-2021 15:11:58 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/gencertadmon.php:11
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(227): include()
+#1 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/gencertadmon.php on line 11
+[04-Mar-2021 15:12:17 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/gencertadmon.php:11
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(227): include()
+#1 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/gencertadmon.php on line 11
+[04-Mar-2021 15:22:34 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/gencertadmon.php:11
+Stack trace:
+#0 /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php(227): include()
+#1 {main}
+  thrown in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/gencertadmon.php on line 11
+[15-Mar-2021 14:06:45 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:06:45 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:06:45 america/bogota] PHP Warning:  include(): Failed opening 'models/operativos.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:07:24 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:07:24 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:07:24 america/bogota] PHP Warning:  include(): Failed opening 'models/operativos.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:07:34 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:07:34 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:07:34 america/bogota] PHP Warning:  include(): Failed opening 'models/operativos.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:07:59 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:07:59 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:07:59 america/bogota] PHP Warning:  include(): Failed opening 'models/operativos.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:08:04 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:08:04 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:08:04 america/bogota] PHP Warning:  include(): Failed opening 'models/operativos.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:10:25 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:10:25 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:10:25 america/bogota] PHP Warning:  include(): Failed opening 'models/operativos.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:08 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:08 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:08 america/bogota] PHP Warning:  include(): Failed opening 'models/operativos.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:14 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:14 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:14 america/bogota] PHP Warning:  include(): Failed opening 'models/operativos.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:17 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:17 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:17 america/bogota] PHP Warning:  include(): Failed opening 'models/operativos.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:19 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:19 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:19 america/bogota] PHP Warning:  include(): Failed opening 'models/operativos.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:21 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:21 america/bogota] PHP Warning:  include(models/operativos.php): failed to open stream: No such file or directory in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[15-Mar-2021 14:12:21 america/bogota] PHP Warning:  include(): Failed opening 'models/operativos.php' for inclusion (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home3/johfrey1/rrhh.fibernetsa.co/admin/index.php on line 134
+[23-Apr-2021 11:54:38 america/bogota] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home3/johfrey1/rrhh.fibernetsa.co/admin/includes/downDesprendible.php on line 129
+[20-Feb-2022 11:38:41 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/defecto.php on line 29
+[20-Feb-2022 11:39:14 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/defecto.php on line 29
+[20-Feb-2022 11:39:15 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/defecto.php on line 29
+[20-Feb-2022 11:40:07 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/defecto.php on line 29
+[20-Feb-2022 11:41:14 america/bogota] PHP Warning:  include(includes/MenuSemillas.php): failed to open stream: No such file or directory in /home/u933403530/domains/tusemilla.com.co/public_html/admin/index.php on line 161
+[20-Feb-2022 11:41:14 america/bogota] PHP Warning:  include(): Failed opening 'includes/MenuSemillas.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u933403530/domains/tusemilla.com.co/public_html/admin/index.php on line 161
+[20-Feb-2022 11:42:08 america/bogota] PHP Warning:  include(includes/MenuSemillas.php): failed to open stream: No such file or directory in /home/u933403530/domains/tusemilla.com.co/public_html/admin/index.php on line 161
+[20-Feb-2022 11:42:08 america/bogota] PHP Warning:  include(): Failed opening 'includes/MenuSemillas.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u933403530/domains/tusemilla.com.co/public_html/admin/index.php on line 161
+[20-Feb-2022 11:42:09 america/bogota] PHP Warning:  include(includes/MenuSemillas.php): failed to open stream: No such file or directory in /home/u933403530/domains/tusemilla.com.co/public_html/admin/index.php on line 161
+[20-Feb-2022 11:42:09 america/bogota] PHP Warning:  include(): Failed opening 'includes/MenuSemillas.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u933403530/domains/tusemilla.com.co/public_html/admin/index.php on line 161
+[20-Feb-2022 11:42:58 america/bogota] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 2
+[20-Feb-2022 11:42:58 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 3
+[20-Feb-2022 11:42:58 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 4
+[20-Feb-2022 11:42:58 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 5
+[20-Feb-2022 11:42:58 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 6
+[20-Feb-2022 11:42:58 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 7
+[20-Feb-2022 11:42:58 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 8
+[20-Feb-2022 11:42:58 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 9
+[20-Feb-2022 11:42:58 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 10
+[20-Feb-2022 11:42:58 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 11
+[20-Feb-2022 11:42:58 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 59
+[20-Feb-2022 11:44:02 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 59
+[20-Feb-2022 11:46:10 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/viewSemillas.php on line 21
+[20-Feb-2022 11:50:20 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php:131
+Stack trace:
+#0 /home/u933403530/domains/tusemilla.com.co/public_html/admin/index.php(189): include()
+#1 {main}
+  thrown in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php on line 131
+[20-Feb-2022 17:19:30 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Lideres/newlider.php on line 58
+[20-Feb-2022 17:19:30 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Lideres/newlider.php on line 70
+[20-Feb-2022 17:19:30 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Lideres/newlider.php on line 106
+[20-Feb-2022 17:21:02 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Lideres/newlider.php on line 70
+[20-Feb-2022 17:21:02 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Lideres/newlider.php on line 106
+[20-Feb-2022 17:22:37 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Lideres/newlider.php on line 70
+[20-Feb-2022 17:23:17 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/defecto.php on line 29
+[20-Feb-2022 17:23:54 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/defecto.php on line 29
+[20-Feb-2022 17:25:05 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/verpsemillas.php on line 23
+[21-Feb-2022 21:16:37 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/verMvto.php on line 50
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Undefined variable: R in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 2
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 2
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Undefined variable: R in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 3
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 3
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Undefined variable: R in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 4
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 4
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Undefined variable: R in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 5
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 5
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Undefined variable: R in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 6
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 6
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Undefined variable: R in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 7
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 7
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Undefined variable: R in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 8
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 8
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Undefined variable: R in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 9
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 9
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Undefined variable: R in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 10
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 10
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Undefined variable: R in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 11
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 11
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Undefined variable: R in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 12
+[23-Feb-2022 14:34:42 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 12
+[23-Feb-2022 14:34:42 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 61
+[23-Feb-2022 14:35:21 america/bogota] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 2
+[23-Feb-2022 14:35:21 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 3
+[23-Feb-2022 14:35:21 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 4
+[23-Feb-2022 14:35:21 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 5
+[23-Feb-2022 14:35:21 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 6
+[23-Feb-2022 14:35:21 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 7
+[23-Feb-2022 14:35:21 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 8
+[23-Feb-2022 14:35:21 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 9
+[23-Feb-2022 14:35:21 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 10
+[23-Feb-2022 14:35:21 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 11
+[23-Feb-2022 14:35:21 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 12
+[23-Feb-2022 14:35:21 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 13
+[23-Feb-2022 14:35:21 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[23-Feb-2022 14:36:06 america/bogota] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 5
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 6
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 7
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 8
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 9
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 10
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 11
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 12
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 13
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 14
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 15
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 16
+[23-Feb-2022 14:36:06 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 65
+[23-Feb-2022 14:36:06 america/bogota] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 5
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 6
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 7
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 8
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 9
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 10
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 11
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 12
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 13
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 14
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 15
+[23-Feb-2022 14:36:06 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 16
+[23-Feb-2022 14:36:06 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 65
+[23-Feb-2022 14:36:27 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 65
+[23-Feb-2022 14:36:43 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[23-Feb-2022 14:36:44 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[23-Feb-2022 14:40:59 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[23-Feb-2022 14:51:36 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/verMvto.php on line 50
+[23-Feb-2022 14:52:32 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/verMvto.php on line 50
+[23-Feb-2022 14:52:51 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[23-Feb-2022 14:59:18 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[24-Feb-2022 13:40:24 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[26-Feb-2022 11:03:03 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[26-Feb-2022 11:04:01 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[26-Feb-2022 11:05:00 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[26-Feb-2022 11:05:01 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[26-Feb-2022 16:11:42 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/verMvto.php on line 50
+[26-Feb-2022 16:23:33 america/bogota] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php:131
+Stack trace:
+#0 /home/u933403530/domains/tusemilla.com.co/public_html/admin/index.php(188): include()
+#1 {main}
+  thrown in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php on line 131
+[26-Feb-2022 16:30:04 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/verMvto.php on line 50
+[26-Feb-2022 16:30:10 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[26-Feb-2022 16:44:36 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[26-Feb-2022 16:45:07 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[26-Feb-2022 16:45:43 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[26-Feb-2022 16:48:32 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/prestamos.php on line 57
+[26-Feb-2022 16:49:25 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[26-Feb-2022 16:49:31 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[27-Feb-2022 10:35:45 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[27-Feb-2022 11:07:22 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/prestamos.php on line 57
+[27-Feb-2022 11:07:55 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[27-Feb-2022 11:08:05 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[27-Feb-2022 11:08:19 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[27-Feb-2022 11:11:55 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/prestamos.php on line 57
+[27-Feb-2022 11:12:02 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/prestamos.php on line 57
+[27-Feb-2022 11:31:07 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/prestamos.php on line 57
+[27-Feb-2022 11:35:51 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[01-Mar-2022 19:11:54 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[01-Mar-2022 19:24:14 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/prestamos.php on line 57
+[01-Mar-2022 19:24:19 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/prestamos.php on line 57
+[01-Mar-2022 19:24:41 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/prestamos.php on line 57
+[01-Mar-2022 19:26:05 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[01-Mar-2022 19:26:42 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[01-Mar-2022 19:45:17 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[01-Mar-2022 20:09:25 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[01-Mar-2022 20:09:33 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[01-Mar-2022 20:09:35 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[01-Mar-2022 20:09:39 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 16:15:31 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 16:19:03 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 16:19:12 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 16:19:42 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 16:20:12 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 16:22:59 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 16:27:32 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 16:36:02 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 16:54:40 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 17:03:12 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 17:03:24 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 17:13:10 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 17:29:50 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 17:40:51 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 17:41:04 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[02-Mar-2022 18:07:54 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[06-Mar-2022 12:17:11 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/menus_prestamos.php on line 59
+[06-Mar-2022 12:18:12 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/menus_prestamos.php on line 59
+[06-Mar-2022 12:18:13 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/menus_prestamos.php on line 59
+[06-Mar-2022 12:19:17 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/menus_prestamos.php on line 38
+[06-Mar-2022 12:20:21 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[06-Mar-2022 14:42:35 america/bogota] PHP Parse error:  syntax error, unexpected 'Documentos' (T_STRING), expecting ')' in /home/u933403530/domains/tusemilla.com.co/public_html/admin/models/Semilla.php on line 13
+[06-Mar-2022 14:43:17 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[06-Mar-2022 21:34:56 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[07-Mar-2022 20:08:35 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[07-Mar-2022 20:12:41 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[08-Mar-2022 09:17:59 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[08-Mar-2022 09:23:53 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[12-Mar-2022 10:16:26 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[12-Mar-2022 10:17:22 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 62
+[12-Mar-2022 10:19:29 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 61
+[12-Mar-2022 10:20:35 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 61
+[12-Mar-2022 10:35:37 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[12-Mar-2022 10:35:39 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[12-Mar-2022 10:36:24 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[12-Mar-2022 10:47:34 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[12-Mar-2022 11:04:30 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php on line 4
+[12-Mar-2022 11:04:30 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php on line 5
+[12-Mar-2022 11:04:30 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php on line 6
+[12-Mar-2022 11:04:30 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php on line 7
+[12-Mar-2022 11:04:30 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php on line 9
+[12-Mar-2022 11:04:30 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php on line 10
+[12-Mar-2022 11:04:30 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php on line 11
+[12-Mar-2022 11:04:30 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php on line 12
+[12-Mar-2022 11:04:30 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php on line 13
+[12-Mar-2022 11:04:30 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php on line 14
+[12-Mar-2022 11:04:30 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/detSemilla.php on line 15
+[12-Mar-2022 13:28:00 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[12-Mar-2022 13:28:12 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[14-Mar-2022 19:29:34 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/upcomprobante.php on line 40
+[14-Mar-2022 19:29:47 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/upcomprobante.php on line 40
+[14-Mar-2022 19:29:59 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/upcomprobante.php on line 40
+[14-Mar-2022 19:37:46 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[15-Mar-2022 14:02:43 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[15-Mar-2022 14:02:43 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[15-Mar-2022 14:04:18 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[15-Mar-2022 14:07:19 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 10:22:44 america/bogota] PHP Notice:  Undefined index: Meta_personal in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/dwcomprobante.php on line 23
+[16-Mar-2022 10:22:44 america/bogota] PHP Notice:  Undefined index: Meta_personal in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/dwcomprobante.php on line 23
+[16-Mar-2022 10:22:44 america/bogota] PHP Notice:  Undefined index: Meta_personal in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/dwcomprobante.php on line 23
+[16-Mar-2022 10:22:44 america/bogota] PHP Notice:  Undefined index: Meta_personal in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/dwcomprobante.php on line 23
+[16-Mar-2022 10:22:44 america/bogota] PHP Notice:  Undefined index: Meta_personal in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/dwcomprobante.php on line 23
+[16-Mar-2022 16:29:04 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 22:12:48 UTC] PHP Notice:  Undefined variable: User in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/menu_mvsem.php on line 36
+[16-Mar-2022 22:12:48 UTC] PHP Notice:  Undefined variable: User in /home/u933403530/domains/tusemilla.com.co/public_html/admin/index.php on line 278
+[16-Mar-2022 22:12:51 UTC] PHP Notice:  Undefined variable: User in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/menu_mvsem.php on line 36
+[16-Mar-2022 22:12:51 UTC] PHP Notice:  Undefined variable: User in /home/u933403530/domains/tusemilla.com.co/public_html/admin/index.php on line 278
+[16-Mar-2022 22:12:58 UTC] PHP Notice:  Undefined variable: Permiso in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/defecto.php on line 3
+[16-Mar-2022 22:12:58 UTC] PHP Notice:  Undefined variable: User in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/defecto.php on line 8
+[16-Mar-2022 22:12:58 UTC] PHP Notice:  Undefined variable: Permiso in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/defecto.php on line 24
+[16-Mar-2022 22:12:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/defecto.php on line 29
+[16-Mar-2022 22:12:58 UTC] PHP Notice:  Undefined variable: User in /home/u933403530/domains/tusemilla.com.co/public_html/admin/index.php on line 278
+[16-Mar-2022 17:16:37 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 17:22:48 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 17:24:01 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 17:27:33 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 17:27:37 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 17:29:21 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 17:30:58 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 17:36:47 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 17:38:44 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 17:39:15 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 17:39:29 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 17:40:07 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 17:41:12 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 19:28:53 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 21:13:50 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Mar-2022 21:15:59 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[22-Mar-2022 14:23:47 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[22-Mar-2022 20:48:14 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[22-Mar-2022 21:00:58 america/bogota] PHP Notice:  Undefined index: Id_Semilla in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/verMvto.php on line 65
+[22-Mar-2022 21:00:58 america/bogota] PHP Notice:  Undefined index: Id_Semilla in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/verMvto.php on line 65
+[22-Mar-2022 21:04:24 america/bogota] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Multas.php on line 13
+[22-Mar-2022 21:04:24 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Multas.php on line 39
+[22-Mar-2022 21:04:24 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Multas.php on line 41
+[22-Mar-2022 21:04:24 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Multas.php on line 42
+[22-Mar-2022 21:04:24 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Multas.php on line 43
+[22-Mar-2022 21:04:24 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Multas.php on line 44
+[22-Mar-2022 21:04:24 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Multas.php on line 46
+[22-Mar-2022 21:05:04 america/bogota] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Multas.php on line 13
+[22-Mar-2022 21:05:04 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Multas.php on line 39
+[22-Mar-2022 21:05:04 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Multas.php on line 41
+[22-Mar-2022 21:05:04 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Multas.php on line 42
+[22-Mar-2022 21:05:04 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Multas.php on line 43
+[22-Mar-2022 21:05:04 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Multas.php on line 44
+[22-Mar-2022 21:05:04 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Multas.php on line 46
+[22-Mar-2022 21:06:46 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/verMvto.php on line 11
+[22-Mar-2022 21:07:40 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/verMvto.php on line 11
+[24-Mar-2022 12:32:55 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 12:33:09 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 12:33:09 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 12:33:24 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 12:33:51 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 12:34:13 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 12:34:23 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 12:35:39 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 13:06:18 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 14:17:32 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 14:19:14 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 14:20:00 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 14:20:48 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 14:24:04 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 14:26:05 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 14:27:20 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 14:29:01 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 14:32:07 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 15:01:01 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 15:01:15 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 15:01:21 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 15:01:40 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 15:01:55 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 15:02:17 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 15:03:06 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 19:17:07 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 19:36:33 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 20:11:23 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[24-Mar-2022 20:12:38 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[25-Mar-2022 11:19:31 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[25-Mar-2022 11:29:57 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[25-Mar-2022 14:23:35 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[25-Mar-2022 16:15:49 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[25-Mar-2022 16:16:42 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[26-Mar-2022 18:36:03 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[26-Mar-2022 18:36:23 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[26-Mar-2022 18:37:24 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Mar-2022 17:13:16 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Mar-2022 17:15:35 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Mar-2022 17:15:46 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[29-Mar-2022 20:26:54 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[29-Mar-2022 20:31:27 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[29-Mar-2022 20:31:55 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[29-Mar-2022 20:40:56 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[29-Mar-2022 20:41:10 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[29-Mar-2022 21:00:44 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[29-Mar-2022 21:02:23 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[29-Mar-2022 21:02:23 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[29-Mar-2022 21:48:45 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[29-Mar-2022 21:48:49 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[30-Mar-2022 12:37:38 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[30-Mar-2022 14:48:32 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[30-Mar-2022 14:52:39 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[30-Mar-2022 14:59:52 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[30-Mar-2022 16:22:45 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[30-Mar-2022 20:32:09 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[30-Mar-2022 20:32:47 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[30-Mar-2022 20:33:32 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[30-Mar-2022 20:33:51 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[31-Mar-2022 16:19:26 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[31-Mar-2022 16:22:09 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[31-Mar-2022 16:22:12 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[01-Apr-2022 11:53:46 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[01-Apr-2022 11:54:48 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[01-Apr-2022 12:44:19 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[12-Apr-2022 13:09:07 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[13-Apr-2022 14:02:51 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[13-Apr-2022 14:05:51 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[13-Apr-2022 14:10:53 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[13-Apr-2022 14:36:29 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[13-Apr-2022 14:38:44 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[13-Apr-2022 14:39:28 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[13-Apr-2022 14:51:48 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[13-Apr-2022 16:23:02 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[14-Apr-2022 21:07:04 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[14-Apr-2022 21:08:22 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[14-Apr-2022 21:09:02 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[16-Apr-2022 13:18:42 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[18-Apr-2022 08:44:14 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[22-Apr-2022 06:25:44 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[22-Apr-2022 12:21:27 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[22-Apr-2022 17:23:14 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[22-Apr-2022 17:23:38 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[23-Apr-2022 08:13:08 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[23-Apr-2022 14:18:12 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[23-Apr-2022 14:19:00 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[23-Apr-2022 14:22:19 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[23-Apr-2022 14:22:22 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 08:36:40 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 08:36:46 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 08:37:18 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 08:37:52 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 08:38:12 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 13:05:50 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 13:50:04 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:08:04 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:34:43 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:39:34 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:40:17 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:41:08 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:43:05 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:44:06 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:44:17 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:44:18 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:50:30 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:51:05 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:52:48 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:52:58 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:53:25 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:53:25 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 16:55:24 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 21:33:46 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[27-Apr-2022 21:35:43 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[03-May-2022 15:12:16 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[03-May-2022 15:12:50 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[03-May-2022 15:13:19 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[03-May-2022 18:49:07 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[05-May-2022 14:51:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 34
+[05-May-2022 14:51:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 37
+[05-May-2022 14:51:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 40
+[05-May-2022 14:51:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 49
+[05-May-2022 14:51:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 52
+[05-May-2022 14:51:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 55
+[05-May-2022 14:51:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 64
+[05-May-2022 14:51:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 67
+[05-May-2022 14:51:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 70
+[05-May-2022 14:51:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 83
+[05-May-2022 14:52:05 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 34
+[05-May-2022 14:52:05 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 37
+[05-May-2022 14:52:05 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 40
+[05-May-2022 14:52:05 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 49
+[05-May-2022 14:52:05 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 52
+[05-May-2022 14:52:05 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 55
+[05-May-2022 14:52:05 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 64
+[05-May-2022 14:52:05 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 67
+[05-May-2022 14:52:05 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 70
+[05-May-2022 14:52:05 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 83
+[05-May-2022 14:52:51 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 34
+[05-May-2022 14:52:51 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 37
+[05-May-2022 14:52:51 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 40
+[05-May-2022 14:52:51 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 49
+[05-May-2022 14:52:51 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 52
+[05-May-2022 14:52:51 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 55
+[05-May-2022 14:52:51 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 64
+[05-May-2022 14:52:51 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 67
+[05-May-2022 14:52:51 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 70
+[05-May-2022 14:52:51 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 83
+[05-May-2022 14:53:07 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 34
+[05-May-2022 14:53:07 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 37
+[05-May-2022 14:53:07 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 40
+[05-May-2022 14:53:07 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 49
+[05-May-2022 14:53:07 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 52
+[05-May-2022 14:53:07 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 55
+[05-May-2022 14:53:07 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 64
+[05-May-2022 14:53:07 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 67
+[05-May-2022 14:53:07 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 70
+[05-May-2022 14:53:07 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 83
+[05-May-2022 14:53:33 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 34
+[05-May-2022 14:53:33 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 37
+[05-May-2022 14:53:33 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 40
+[05-May-2022 14:53:33 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 49
+[05-May-2022 14:53:33 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 52
+[05-May-2022 14:53:33 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 55
+[05-May-2022 14:53:33 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 64
+[05-May-2022 14:53:33 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 67
+[05-May-2022 14:53:33 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 70
+[05-May-2022 14:53:33 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 83
+[05-May-2022 14:54:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 34
+[05-May-2022 14:54:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 37
+[05-May-2022 14:54:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 40
+[05-May-2022 14:54:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 49
+[05-May-2022 14:54:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 52
+[05-May-2022 14:54:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 55
+[05-May-2022 14:54:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 64
+[05-May-2022 14:54:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 67
+[05-May-2022 14:54:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 70
+[05-May-2022 14:54:15 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 83
+[05-May-2022 18:21:11 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 34
+[05-May-2022 18:21:11 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 37
+[05-May-2022 18:21:11 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 40
+[05-May-2022 18:21:11 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 49
+[05-May-2022 18:21:11 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 52
+[05-May-2022 18:21:11 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 55
+[05-May-2022 18:21:11 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 64
+[05-May-2022 18:21:11 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 67
+[05-May-2022 18:21:11 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 70
+[05-May-2022 18:26:36 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[05-May-2022 19:02:41 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 34
+[05-May-2022 19:02:41 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 37
+[05-May-2022 19:02:41 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 40
+[05-May-2022 19:02:41 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 49
+[05-May-2022 19:02:41 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 52
+[05-May-2022 19:02:41 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 55
+[05-May-2022 19:02:41 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 64
+[05-May-2022 19:02:41 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 67
+[05-May-2022 19:02:41 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 70
+[05-May-2022 19:05:13 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 34
+[05-May-2022 19:05:13 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 37
+[05-May-2022 19:05:13 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 40
+[05-May-2022 19:05:13 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 49
+[05-May-2022 19:05:13 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 52
+[05-May-2022 19:05:13 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 55
+[05-May-2022 19:05:13 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 64
+[05-May-2022 19:05:13 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 67
+[05-May-2022 19:05:13 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 70
+[05-May-2022 19:07:44 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 34
+[05-May-2022 19:07:44 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 37
+[05-May-2022 19:07:44 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 40
+[05-May-2022 19:07:44 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 49
+[05-May-2022 19:07:44 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 52
+[05-May-2022 19:07:44 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 55
+[05-May-2022 19:07:44 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 64
+[05-May-2022 19:07:44 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 67
+[05-May-2022 19:07:44 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 70
+[05-May-2022 19:07:47 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 34
+[05-May-2022 19:07:47 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 37
+[05-May-2022 19:07:47 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 40
+[05-May-2022 19:07:47 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 49
+[05-May-2022 19:07:47 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 52
+[05-May-2022 19:07:47 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 55
+[05-May-2022 19:07:47 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 64
+[05-May-2022 19:07:47 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 67
+[05-May-2022 19:07:47 america/bogota] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/ver_votaciones.php on line 70
+[06-May-2022 11:28:32 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[06-May-2022 11:28:32 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[06-May-2022 11:29:56 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[06-May-2022 11:30:31 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[06-May-2022 17:22:43 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[10-May-2022 20:30:29 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[11-May-2022 08:17:51 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[11-May-2022 16:32:09 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[11-May-2022 19:19:57 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[11-May-2022 19:20:39 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[11-May-2022 19:22:10 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[11-May-2022 19:38:31 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[11-May-2022 19:40:19 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[11-May-2022 19:42:23 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[11-May-2022 19:44:09 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[11-May-2022 19:49:58 america/bogota] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 79
+[17-May-2022 14:33:09 america/bogota] PHP Notice:  Undefined variable: Nombre in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 24
+[17-May-2022 14:34:24 america/bogota] PHP Notice:  Undefined variable: Nombre in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 24
+[17-May-2022 14:36:17 america/bogota] PHP Notice:  Undefined variable: Nombre in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/info_perso.php on line 24
