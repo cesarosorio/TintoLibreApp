@@ -81,7 +81,10 @@ if (isset($_SESSION['user'])){
   <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
+<<<<<<< HEAD
   <link href="css/custom-general.css" rel="stylesheet">
+=======
+>>>>>>> c7e84626f70169fab3afcb5aab470f8744186c35
 
 <style>
     
