@@ -82,7 +82,7 @@
   <div id="pedir-prestamo-button" class="d-flex w-per-30 justify-content-center align-center flex-column cursor-pointer">
     <div class="d-flex w-100 flex-column contenedor-opcion">
     <div class="d-flex w-100 icono-opciones registrar-ahorro-icono">&nbsp;</div>
-      <div class="d-flex w-100"><p class="text-center w-100 texto-icono">Pedir préstamo TuSemilla</p></div>
+      <div class="d-flex w-100"><p class="text-center w-100 texto-icono">Pedir préstamo TuSemillas</p></div>
     </div>
   </div>
   <div id="crecimiento-button" class="d-flex w-per-30 justify-content-center align-center flex-column cursor-pointer">
