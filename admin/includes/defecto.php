@@ -51,15 +51,48 @@
 
 <?php } ?>
 
-<div class="card-deck">
-  
-  <div class="card"> 
-    <div class="card-body">
-      <h5 class="card-title">Registrar mi ahorro</h5>
-      <p class="card-text"><a href="?contenido=upcomprobante" class="btn btn-dark btn-block">Presiona aquí</a></p>
+<div class="d-flex flex-row w-100 p-per-2 justify-content-between">
+  <div id="pse-button" class="d-flex w-per-30 justify-content-center align-center flex-column cursor-pointer">
+    <div class="d-flex w-100 flex-column contenedor-opcion">
+      <div class="d-flex w-100 icono-opciones pse-icono">&nbsp;</div>
+      <div class="d-flex w-100"><p class="text-center w-100 texto-icono">Consignación en línea</p></div>
     </div>
   </div>
+  <div id="registrar-ahorro-button" class="d-flex w-per-30 justify-content-center align-center flex-column cursor-pointer">
+    <div class="d-flex w-100 flex-column contenedor-opcion">
+    <div class="d-flex w-100 icono-opciones registrar-ahorro-icono">&nbsp;</div>
+      <div class="d-flex w-100"><p class="text-center w-100 texto-icono">Registra tu ahorro</p></div>
+    </div>
+  </div>
+  <div id="crecimiento-button" class="d-flex w-per-30 justify-content-center align-center flex-column cursor-pointer">
+    <div class="d-flex w-100 flex-column contenedor-opcion">
+    <div class="d-flex w-100 icono-opciones crecimiento-icono">&nbsp;</div>
+      <div class="d-flex w-100"><p class="text-center w-100 texto-icono">Crecimiento TuSemilla</p></div>
+    </div>
+  </div>
+</div>
 
+<div class="d-flex flex-row w-100 p-per-2 justify-content-between">
+  <div id="pse-button" class="d-flex w-per-30 justify-content-center align-center flex-column cursor-pointer">
+    <div class="d-flex w-100 flex-column contenedor-opcion">
+      <div class="d-flex w-100 icono-opciones pse-icono">&nbsp;</div>
+      <div class="d-flex w-100"><p class="text-center w-100 texto-icono">Consignación en línea</p></div>
+    </div>
+  </div>
+  <div id="pedir-prestamo-button" class="d-flex w-per-30 justify-content-center align-center flex-column cursor-pointer">
+    <div class="d-flex w-100 flex-column contenedor-opcion">
+    <div class="d-flex w-100 icono-opciones registrar-ahorro-icono">&nbsp;</div>
+      <div class="d-flex w-100"><p class="text-center w-100 texto-icono">Pedir préstamo TuSemillas</p></div>
+    </div>
+  </div>
+  <div id="crecimiento-button" class="d-flex w-per-30 justify-content-center align-center flex-column cursor-pointer">
+    <div class="d-flex w-100 flex-column contenedor-opcion">
+    <div class="d-flex w-100 icono-opciones crecimiento-icono">&nbsp;</div>
+      <div class="d-flex w-100"><p class="text-center w-100 texto-icono">Crecimiento TuSemilla</p></div>
+    </div>
+  </div>
+</div>
+<!-- <div class="card-deck">
   <div class="card"> 
     <div class="card-body">
       <h5 class="card-title">Ver cuánto hemos ahorrado</h5>
@@ -86,7 +119,7 @@
     </div>
   </div>
  
-</div>
+</div> -->
 
 <br> 
 
@@ -114,12 +147,6 @@
     INFORMACIÓN PARA CONSIGNACIÓN: Cuenta de ahorros Banco Caja Social No. 241 1557 1664 A nombre de TintoLibre Nit: 901.563.012-2
 </div>
 
-<a target="_blank" style="text-decoration: none;" href="https://www.mipagoamigo.com/MPA_WebSite/ServicePayments/StartPayment?id=8851&searchedCategoryId=&searchedAgreementName=TINTOLIBRE">
-<div class="alert alert-primary" role="alert" align="center">
-    MI BANCO AMIGO
-</div>
-</a> 
-
 
 <script>
  $(document).ready(function(){  
@@ -127,8 +154,8 @@
            $('#insert').val("Insert");  
            $('#insert_form')[0].reset();  
       }); 
-      $(document).on('click', '.view_data', function(){  
-           var employee_id = $(this).attr("id");  
+      $(document).on('click', '#pedir-prestamo-button', function(){  
+          var employee_id = '<?php echo $User ?>';
            if(employee_id != '')  
            {  
                 $.ajax({  
@@ -136,11 +163,21 @@
                      method:"POST",  
                      data:{employee_id:employee_id},  
                      success:function(data){  
+                      debugger;
                           $('#employee_detail').html(data);  
                           $('#dataModal').modal('show');  
                      }  
                 });  
            }            
+      });
+      $(document).on('click', '#pse-button', function(){  
+        window.open("https://www.mipagoamigo.com/MPA_WebSite/ServicePayments/StartPayment?id=8851&searchedCategoryId=&searchedAgreementName=TINTOLIBRE",  '_blank');         
+      }); 
+      $(document).on('click', '#registrar-ahorro-button', function(){  
+        window.location = "?contenido=upcomprobante";         
+      }); 
+      $(document).on('click', '#crecimiento-button', function(){  
+        window.location = "?contenido=dwcomprobante";         
       });  
  });  
  </script>

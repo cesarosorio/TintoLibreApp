@@ -1,0 +1,87 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-per-30 {
+  width: 30%;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.m-per-2 {
+  margin: 2%;
+}
+
+.p-per-2 {
+  padding: 2%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.pse-icono {
+  background-image: url(../../images/pse.ico);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.registrar-ahorro-icono {
+  background-image: url(../../images/registro.ico);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.crecimiento-icono {
+  background-image: url(../../images/Semilla.ico);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contenedor-opcion {
+  max-width: 150px;
+  background-color: #262626;
+  padding: 5px 7px 0px;
+}
+
+.icono-opciones {
+  max-height: 100px;
+  min-height: 90px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.texto-icono {
+  padding-top: 2px;
+  height: 32px;
+  line-height: 18px;
+  color: #fff;
+  font-size: 14px;
+}
