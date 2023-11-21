@@ -1,0 +1,10 @@
+[20-Feb-2022 16:52:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/AggIntegSem.php on line 25
+[12-Mar-2022 19:17:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/FuncionesSemilla.php on line 93
+[12-Mar-2022 19:17:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/FuncionesSemilla.php on line 94
+[12-Mar-2022 19:24:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/FuncionesSemilla.php on line 128
+[12-Mar-2022 19:24:02 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/FuncionesSemilla.php on line 129
+[12-Mar-2022 19:27:39 UTC] PHP Notice:  Undefined variable: S in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/FuncionesSemilla.php on line 135
+[12-Mar-2022 19:27:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/FuncionesSemilla.php on line 135
+[15-Mar-2022 00:09:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/FuncionesSemilla.php on line 128
+[15-Mar-2022 00:09:04 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/FuncionesSemilla.php on line 129
+[30-Mar-2022 22:13:08 UTC] PHP Notice:  Undefined index: check1 in /home/u933403530/domains/tusemilla.com.co/public_html/admin/includes/Semillas/CrearSemilla.php on line 19
