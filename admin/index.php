@@ -224,12 +224,20 @@ case 'verpsemillas':
   include ("includes/verpsemillas.php"); 
 break;
 
+case 'verpsemillasm':
+  include ("includes/verpsemillasm.php"); 
+break;
+
 case 'asigMultas':
   include ("includes/asigMultas.php"); 
 break;
 
 case 'verMvto':
   include ("includes/verMvto.php"); 
+break;
+
+case 'verMvtoM':
+  include ("includes/verMvtoM.php"); 
 break;
 
 case 'Multas':
