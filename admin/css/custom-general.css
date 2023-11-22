@@ -63,6 +63,69 @@
   background-position: center;
 }
 
+.pedir-prestamo-icono {
+  background-image: url(../../images/pedir-prestamo.ico);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.votar-icono {
+  background-image: url(../../images/votar-prestamo.ico);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.movimientos-icono {
+  background-image: url(../../images/movimientos.ico);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ver-prestamos-icono {
+  background-image: url(../../images/ver-prestamos.ico);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pedir-prestamo-asociacion-icono {
+  background-image: url(../../images/pedir-prestamo.ico);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.reglas-icono {
+  background-image: url(../../images/Reglas.ico);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.informacion-personal-icono {
+  background-image: url(../../images/Identidad.ico);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.manuales-icono {
+  background-image: url(../../images/manuales.ico);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.preguntas-icono {
+  background-image: url(../../images/preguntas.ico);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .contenedor-opcion {
   max-width: 150px;
   background-color: #262626;
@@ -80,8 +143,12 @@
 
 .texto-icono {
   padding-top: 2px;
-  height: 32px;
+  height: 48px;
   line-height: 18px;
   color: #fff;
   font-size: 14px;
+}
+
+#manuales-button, #pedir-prestamo-asociacion-button {
+  opacity: 0.6;
 }
