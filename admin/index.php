@@ -67,10 +67,10 @@ if (isset($_SESSION['user'])){
     <meta name="author" content=""> 
 
   <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 	
 	<!-- FullCalendar -->
-	<link href='css/fullcalendar.css' rel='stylesheet' />
+	<!-- <link href='css/fullcalendar.css' rel='stylesheet' /> -->
  
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
