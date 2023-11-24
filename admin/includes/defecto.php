@@ -157,7 +157,6 @@
                      method:"POST",  
                      data:{employee_id:employee_id},  
                      success:function(data){  
-                      debugger;
                           $('#employee_detail').html(data);  
                           $('#dataModal').modal('show');  
                      }  
