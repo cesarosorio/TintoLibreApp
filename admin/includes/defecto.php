@@ -191,6 +191,9 @@
       $(document).on('click', '#preguntas-button', function(){  
         window.open("https://www.tusemilla.org/preguntas-frecuentes",  '_blank');                
       });
+      $(document).on('click', '#manuales-button', function(){  
+        window.open("https://www.tusemilla.org/manuales",  '_blank');                
+      });
  });  
  </script>
  <div id="dataModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">  
