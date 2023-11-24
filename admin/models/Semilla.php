@@ -19,11 +19,11 @@ foreach ($ElAdmin as $Leer) {
 
 ?>
 
-<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Menu Levels">
+<!-- <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Menu Levels">
   
-  <!-- <a style="color: white;" class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#Manuales" data-parent="#exampleAccordion">
+  <a style="color: white;" class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#Manuales" data-parent="#exampleAccordion">
     <i class="fa fa-fw fa-sitemap"></i><span class="nav-link-text">Manuales de Interes</span>
-  </a> -->
+  </a>
   
   <ul class="sidenav-second-level collapse" id="Manuales">
     <li><a style="color: white;" href="https://drive.google.com/file/d/1XbUHhHWE4_TadWfn5dCjWbZLcVbrzJoH/view?usp=sharing" target="_blanck">Manual SARLAF</a></li>
@@ -32,4 +32,4 @@ foreach ($ElAdmin as $Leer) {
     <li><a style="color: white;" href="https://drive.google.com/file/d/1_xrbJ93_bA3nC31iM4sMC6SN4JU7aibR/view?usp=share_link" target="_blanck">Manual de ahorro</a></li>
     <li><a style="color: white;" href="https://drive.google.com/file/d/1vqiktodU2lT1vhhpj6t0qlkEkmqtqpwb/view?usp=share_link" target="_blanck">Reglamento de exclusión de la asociación</a></li>   
   </ul>
-</li>
+</li> -->
