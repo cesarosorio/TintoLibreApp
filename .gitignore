@@ -2,3 +2,9 @@ cgi-bin/
 vendor/
 conexion.php
 /conexion.php
+/admin/includes/conexion.php
+admin/includes/conexion.php
+/admin/includes/Funciones/conexion.php
+admin/includes/Funciones/conexion.php
+/admin/PHPExcel/Examples/conexion.php
+admin/PHPExcel/Examples/conexion.php
