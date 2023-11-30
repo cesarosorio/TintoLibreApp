@@ -136,10 +136,6 @@
 </div>
 
 <br> 
-<br>
-<div class="alert alert-secondary" role="alert">
-    INFORMACIÓN PARA CONSIGNACIÓN: Cuenta de ahorros Banco Caja Social No. 241 1557 1664 A nombre de TintoLibre Nit: 901.563.012-2
-</div>
 
 
 <script>
