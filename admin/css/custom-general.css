@@ -26,12 +26,28 @@
   justify-content: center;
 }
 
+.justify-content-end {
+  justify-content: end;
+}
+
+.justify-content-start {
+  justify-content: start;
+}
+
 .m-per-2 {
   margin: 2%;
 }
 
 .p-per-2 {
   padding: 2%;
+}
+
+.padding-left-5 {
+  padding-left: 5px;
+}
+
+.padding-right-5 {
+  padding-right: 5px;
 }
 
 .text-center {
@@ -154,4 +170,21 @@
 
 #pedir-prestamo-asociacion-button {
   opacity: 0.6;
+}
+
+.breadcrumb {
+  font-size: 12px;
+}
+
+.custom-row-reglas {
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.custom-border-right-reglas {
+  border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.custom-column-reglas {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
 }

@@ -182,7 +182,7 @@
         window.location = "?contenido=menus_prestamos";         
       });
       $(document).on('click', '#reglas-button', function(){  
-        window.location = "?contenido=verpsemillas";         
+        window.location = "?contenido=verpsemillasreglas";         
       });
       $(document).on('click', '#informacion-personal-button', function(){  
         window.location = "?contenido=info_perso";         
