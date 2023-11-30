@@ -49,35 +49,35 @@ if ($Permiso == 2) {
 <div class="d-flex flex-column w-100">
   <div class="d-flex w-100 justify-content-center"><h5><strong>REGLAS DE LA SEMILLA</strong></h5></div>
   <div class="d-flex flex-row justify-content-between custom-row-reglas">
-     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 custom-border-right-reglas"><strong>Nombre</strong></div>
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Nombre</strong></div>
      <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $Nombre_Semilla ?></div>
   </div>
   <div class="d-flex flex-row justify-content-between custom-row-reglas">
-     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 custom-border-right-reglas"><strong>Fecha de creación</strong></div>
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Fecha de creación</strong></div>
      <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $Fecha_Creacion ?></div>
   </div>
   <div class="d-flex flex-row justify-content-between custom-row-reglas">
-     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 custom-border-right-reglas"><strong>Día(s) límite de pago</strong></div>
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Día(s) límite de pago</strong></div>
      <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $TipoPago ?></div>
   </div>
   <div class="d-flex flex-row justify-content-between custom-row-reglas">
-     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 custom-border-right-reglas"><strong>Aporte Social</strong></div>
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Aporte Social</strong></div>
      <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5">$<?php echo number_format($aportesocial, 0) ?></div>
   </div>
   <div class="d-flex flex-row justify-content-between custom-row-reglas">
-     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 custom-border-right-reglas"><strong>Mínimo en consignación</strong></div>
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Mínimo en consignación</strong></div>
      <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5">$<?php echo number_format($minimo, 0) ?></div>
   </div>
   <div class="d-flex flex-row justify-content-between custom-row-reglas">
-     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 custom-border-right-reglas"><strong>Máximo de consignación</strong></div>
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Máximo de consignación</strong></div>
      <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5">$<?php echo number_format($maximo, 0) ?></div>
   </div>
   <div class="d-flex flex-row justify-content-between custom-row-reglas">
-     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 custom-border-right-reglas"><strong>Acta de conformación</strong></div>
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Acta de conformación</strong></div>
      <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><a title='¡Click acá para ver el acta!' href='<?php echo $Cop ?>' target='_blank'><i class='fa fa-file-pdf-o' aria-hidden='true'></i></a></div>
   </div>
   <div class="d-flex flex-row justify-content-between custom-row-reglas">
-     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 custom-border-right-reglas"><strong>Fecha de cierre de semilla</strong></div>
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Fecha de cierre de semilla</strong></div>
      <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $FechaCierre ?></div>
   </div>
   <div class="d-flex flex-row justify-content-between custom-row-reglas">
@@ -85,7 +85,7 @@ if ($Permiso == 2) {
      <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $Nombre_Estado ?></div>
   </div>
   <div class="d-flex flex-row justify-content-between custom-row-reglas">
-     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 custom-border-right-reglas"><strong>Última modificación</strong></div>
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Última modificación</strong></div>
      <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $Ultima_Modificacion ?></div>
   </div>
 </div>
