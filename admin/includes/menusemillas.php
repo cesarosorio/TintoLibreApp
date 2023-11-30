@@ -57,7 +57,7 @@
   <div class="card"> 
     <div class="card-body">
       <h5 class="card-title">Recuerda las reglas de juego de tus semillas</h5>
-      <p class="card-text"><a href="?contenido=verpsemillas" class="btn btn-dark btn-block">Presiona aquí</a></p>
+      <p class="card-text"><a href="?contenido=verpsemillasreglas" class="btn btn-dark btn-block">Presiona aquí</a></p>
     </div>
   </div>
  <div class="card"> 

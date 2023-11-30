@@ -107,7 +107,7 @@ if (isset($_SESSION['user'])){
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Inicio">
           <a style="color: white;" class="nav-link" href="?contenido=index">
             <i class="fa fa-fw fa-home"></i>
-            <span class="nav-link-text">Inicio</span>
+            <span class="nav-link-text">Menú Principal</span>
           </a>
         </li>
         <?php 
@@ -212,6 +212,10 @@ case 'detSemilla':
   include ("includes/Semillas/detSemilla.php"); 
 break;
 
+case 'detReglasSemilla':
+  include ("includes/Semillas/detReglasSemilla.php"); 
+break;
+
 case 'CambiarRol':
   include ("includes/Semillas/CambiarRol.php"); 
 break;
@@ -222,6 +226,10 @@ break;
 
 case 'verpsemillas':
   include ("includes/verpsemillas.php"); 
+break;
+
+case 'verpsemillasreglas':
+  include ("includes/verpsemillasreglas.php"); 
 break;
 
 case 'verpsemillasm':
