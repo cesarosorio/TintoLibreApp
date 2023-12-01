@@ -92,10 +92,6 @@ if ($Permiso == 2) {
             <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo number_format($Lee['Meta_personal']) ?></div>
          </div>
          <div class="d-flex flex-row justify-content-between custom-row-reglas">
-            <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Meta</strong></div>
-            <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo number_format($Lee['Meta_personal']) ?></div>
-         </div>
-         <div class="d-flex flex-row justify-content-between custom-row-reglas">
             <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Valor ahorrado</strong></div>
             <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $valorh ?></div>
          </div>
