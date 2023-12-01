@@ -114,7 +114,7 @@
   background-position: center;
 }
 
-.reglas-icono {
+.reglas-icono, .cuanto-ahorrado-icono {
   background-image: url(../../images/Reglas.ico);
   background-size: contain;
   background-repeat: no-repeat;
