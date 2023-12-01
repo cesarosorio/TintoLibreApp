@@ -115,6 +115,12 @@
 </div>
 
 <div class="d-flex flex-row w-100 p-per-2 justify-content-between">
+  <div id="cuanto-ahorrado-button" class="d-flex w-per-30 justify-content-center align-center flex-column cursor-pointer">
+    <div class="d-flex w-100 flex-column contenedor-opcion">
+    <div class="d-flex w-100 icono-opciones cuanto-ahorrado-icono">&nbsp;</div>
+      <div class="d-flex w-100"><p class="text-center w-100 texto-icono">¿Cuánto hemos ahorrado?</p></div>
+    </div>
+  </div>
   <div id="informacion-personal-button" class="d-flex w-per-30 justify-content-center align-center flex-column cursor-pointer">
     <div class="d-flex w-100 flex-column contenedor-opcion">
       <div class="d-flex w-100 icono-opciones informacion-personal-icono">&nbsp;</div>
@@ -127,6 +133,9 @@
       <div class="d-flex w-100"><p class="text-center w-100 texto-icono">Manuales</p></div>
     </div>
   </div>
+</div>
+
+<div class="d-flex flex-row w-100 p-per-2 justify-content-between">
   <div id="preguntas-button" class="d-flex w-per-30 justify-content-center align-center flex-column cursor-pointer">
     <div class="d-flex w-100 flex-column contenedor-opcion">
     <div class="d-flex w-100 icono-opciones preguntas-icono">&nbsp;</div>
@@ -179,6 +188,9 @@
       });
       $(document).on('click', '#reglas-button', function(){  
         window.location = "?contenido=verpsemillasreglas";         
+      });
+      $(document).on('click', '#cuanto-ahorrado-button', function(){  
+        window.location = "?contenido=verpsemillasahorrado";         
       });
       $(document).on('click', '#informacion-personal-button', function(){  
         window.location = "?contenido=info_perso";         

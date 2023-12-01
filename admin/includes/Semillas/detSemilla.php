@@ -47,47 +47,48 @@ if ($Permiso == 2) {
     <li class="breadcrumb-item active"><strong>Semilla: </strong><?php echo $Nombre_Semilla ?></li>
 </ol>
 
-<div class="row"> 
-  <div class="col-md-12" align="center"><strong>INFORMACIÓN DE LA SEMILLA</strong></div>
-  
-  <div class="col-md-12" align="center"><hr></div>
-
-    <div class="col-md-3"><strong>Nombre</strong></div>
-    <div class="col-md-3" align='center'><?php echo $Nombre_Semilla ?></div>
-    <div class="col-md-3"><strong>Fecha de creación</strong></div>
-    <div class="col-md-3" align='center'><?php echo $Fecha_Creacion ?></div>
-
-  <div class="col-md-12" align="center"><hr></div>
-
-    <div class="col-md-3"><strong>Día(s) límite de pago</strong></div>
-    <div class="col-md-3" align='center'><?php echo $TipoPago ?></div>
-    <div class="col-md-3"><strong>Aporte Social</strong></div>
-    <div class="col-md-3" align='center'>$<?php echo number_format($aportesocial, 0) ?></div>
-
-  <div class="col-md-12" align="center"><hr></div>
-
-    <div class="col-md-3"><strong>Mínimo de consignación</strong></div>
-    <div class="col-md-3" align='center'>$<?php echo number_format($minimo, 0) ?></div>
-    <div class="col-md-3"><strong>Máximo de consignación</strong></div>
-    <div class="col-md-3" align='center'>$<?php echo number_format($maximo, 0) ?></div>
-
-  <div class="col-md-12" align="center"><hr></div>
-
-
-    <div class="col-md-3"><strong>Acta de conformación</strong></div>
-    <div class="col-md-3" align='center'><a title='¡Click acá para ver el acta!' href='<?php echo $Cop ?>' target='_blank'><i class='fa fa-file-pdf-o' aria-hidden='true'></i></a></div>
-    <div class="col-md-3"><strong>Fecha de cierre de semilla</strong></div>
-    <div class="col-md-3" align='center'><?php echo $FechaCierre ?></div>
-
-  <div class="col-md-12" align="center"><hr></div>
-
-    <div class="col-md-3"><strong>Estado de la semilla </strong></div>
-    <div class="col-md-3" align='center'><?php echo $Nombre_Estado ?></div>
-    <div class="col-md-3"><strong>Última modificación</strong></div>
-    <div class="col-md-3" align='center'><?php echo $Ultima_Modificacion ?></div>
-
-  <div class="col-md-12" align="center"><br></div>
-
+<div class="d-flex flex-column w-100">
+  <div class="d-flex w-100 justify-content-center"><h5><strong>REGLAS DE LA SEMILLA</strong></h5></div>
+  <div class="d-flex flex-row justify-content-between custom-row-reglas">
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Nombre</strong></div>
+     <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $Nombre_Semilla ?></div>
+  </div>
+  <div class="d-flex flex-row justify-content-between custom-row-reglas">
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Fecha de creación</strong></div>
+     <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $Fecha_Creacion ?></div>
+  </div>
+  <div class="d-flex flex-row justify-content-between custom-row-reglas">
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Día(s) límite de pago</strong></div>
+     <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $TipoPago ?></div>
+  </div>
+  <div class="d-flex flex-row justify-content-between custom-row-reglas">
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Aporte Social</strong></div>
+     <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5">$<?php echo number_format($aportesocial, 0) ?></div>
+  </div>
+  <div class="d-flex flex-row justify-content-between custom-row-reglas">
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Mínimo en consignación</strong></div>
+     <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5">$<?php echo number_format($minimo, 0) ?></div>
+  </div>
+  <div class="d-flex flex-row justify-content-between custom-row-reglas">
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Máximo de consignación</strong></div>
+     <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5">$<?php echo number_format($maximo, 0) ?></div>
+  </div>
+  <div class="d-flex flex-row justify-content-between custom-row-reglas">
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Acta de conformación</strong></div>
+     <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><a title='¡Click acá para ver el acta!' href='<?php echo $Cop ?>' target='_blank'><i class='fa fa-file-pdf-o' aria-hidden='true'></i></a></div>
+  </div>
+  <div class="d-flex flex-row justify-content-between custom-row-reglas">
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Fecha de cierre de semilla</strong></div>
+     <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $FechaCierre ?></div>
+  </div>
+  <div class="d-flex flex-row justify-content-between custom-row-reglas">
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 custom-border-right-reglas"><strong>Estado de la semilla</strong></div>
+     <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $Nombre_Estado ?></div>
+  </div>
+  <div class="d-flex flex-row justify-content-between custom-row-reglas">
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Última modificación</strong></div>
+     <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $Ultima_Modificacion ?></div>
+  </div>
 </div>
 
 <div class="alert alert-dark" role="alert">Acciones en la semilla</div>
@@ -125,9 +126,9 @@ if ($Permiso == 2) {
     <?php } ?>    
 </div> 
 <br>
-
-<div class="alert alert-dark" role="alert">Integrantes de la semilla</div>
-
+<div class='col-md-12'><hr></div>
+<div class="d-flex w-100 justify-content-center text-center"><h5><strong>INTEGRANTES Y AHORRADO EN LA SEMILLA</strong></h5></div>
+<div class='col-md-12'><hr></div>
 <?php } 
 
 if ($Estado_Semilla == 4 OR $Estado_Semilla == 5) {?>
@@ -160,57 +161,71 @@ if ($Estado_Semilla == 4 OR $Estado_Semilla == 5) {?>
  
 <?php }else{?>
 
-    
-<div class="row">
-  <div align="center" class="col-md-3"><strong>Nombre</strong></div>
-  <div align="center" class="col-md-1"><strong>Meta</strong></div> 
-  <div align="center" class="col-md-1"><strong>Valor ahorrado</strong></div>
-  <div align="center" class="col-md-1"><strong>Incentivos ahorro</strong></div>
-  <div align="center" class="col-md-1"><strong>Rol</strong></div>
-  <div align="center" class="col-md-1"><strong>Estado</strong></div>
-  <div align="center" class="col-md-2"><strong>Editar</strong></div>
-  <div align="center" class="col-md-2"><strong>Multar</strong></div> 
-  
-  <div class="col-md-12"><hr></div> 
-  
-  <?php $Nro = 0; while ($Lee=$MP->fetch_array(MYSQLI_BOTH)) { $Nro++;
-  $valorh = ($Lee['valorah'] < 0) ? 0 : number_format($Lee['valorah'], 0);
-  echo "
-    <div class='col-md-3' align='center'>".$Lee['Name']."</div>
-    <div class='col-md-1' align='right'>$".number_format($Lee['Meta_personal'])."</div>
-    <div class='col-md-1' align='right'>$".$valorh."</div>
-    <div class='col-md-1' align='right'>$".number_format($Lee['Incentivo'], 0)."</div>
-    <div class='col-md-1' align='center'>".$Lee['Rol']."</div>
-    <div class='col-md-1' align='center'>".$Lee['Estado']."</div>";
-    if ($Estado_Semilla == 1 AND $Lider_Semilla == $User) {
-        echo "<div class='col-md-2'><form action='../admin/index.php?contenido=CambiarRol' method='POST' class='form-register'>
-            <input type='hidden' name='Cedula' value='".$Lee['Id_usuario']."'>
-            <input type='hidden' name='Sen' value='".$_GET['Semilla']."'>
-            <input name='CambRol' class='btn btn-dark btn-block' type='submit' value='Editar'/></form>
-        </div>";    
-    }elseif($Lider_Semilla != $User){
-        echo "<div class='col-md-2'>No posee permisos de edición</div>";
-    }else{
-        echo "<div class='col-md-2' align='center'><i class='fa fa-ban' aria-hidden='true'></i></div>";
-    }
-    if ($User == $IdPersRol OR $Lider_Semilla == $User AND $Estado_Semilla == 2 OR $Estado_Semilla == 3) {
-        echo "<div class='col-md-2'><form action='?contenido=verMvto' method='POST' class='form-register'>
-            <input type='hidden' name='Semilla' value='".$_GET['Semilla']."'>
-            <input type='hidden' name='Ruta' value='detSemilla'>
-            <input type='hidden' name='Presidente' value='".$User."'>
-            <input name='VerMv' class='btn btn-danger btn-block' type='submit' value='Multar'/></form></div>";
-    }else{
-        echo "<div class='col-md-2' align='center'><i class='fa fa-ban' aria-hidden='true'></i></div>";
-    }
-    
-  echo "<div class='col-md-12'><hr></div>";
-} 
+     <?php $Nro = 0; while ($Lee=$MP->fetch_array(MYSQLI_BOTH)) { $Nro++;
+      $valorh = ($Lee['valorah'] < 0) ? 0 : number_format($Lee['valorah'], 0);
+      ?>
+         <div class="d-flex w-100 justify-content-center"><h5><strong><?php echo $Lee['Name'] ?></strong></h5></div>
+         <div class="d-flex flex-row justify-content-between custom-row-reglas">
+            <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Meta</strong></div>
+            <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo number_format($Lee['Meta_personal']) ?></div>
+         </div>
+         <div class="d-flex flex-row justify-content-between custom-row-reglas">
+            <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Valor ahorrado</strong></div>
+            <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $valorh ?></div>
+         </div>
+         <div class="d-flex flex-row justify-content-between custom-row-reglas">
+            <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Incentivos ahorro</strong></div>
+            <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo number_format($Lee['Incentivo'], 0) ?></div>
+         </div>
+         <div class="d-flex flex-row justify-content-between custom-row-reglas">
+            <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Rol</strong></div>
+            <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $Lee['Rol'] ?></div>
+         </div>
+         <div class="d-flex flex-row justify-content-between custom-row-reglas">
+            <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Estado</strong></div>
+            <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5"><?php echo $Lee['Estado'] ?></div>
+         </div>
+         <div class="d-flex flex-row justify-content-between custom-row-reglas">
+               <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Editar</strong></div>
+               <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5">
+                    <?php 
+                         if ($Estado_Semilla == 1 AND $Lider_Semilla == $User) {
+                              echo "<form action='../admin/index.php?contenido=CambiarRol' method='POST' class='form-register'>
+                              <input type='hidden' name='Cedula' value='".$Lee['Id_usuario']."'>
+                              <input type='hidden' name='Sen' value='".$_GET['Semilla']."'>
+                              <input name='CambRol' class='btn btn-dark btn-block' type='submit' value='Editar'/></form>";    
+                         }elseif($Lider_Semilla != $User){
+                              echo "<div class='col-md-2'>No posee permisos de edición</div>";
+                         }else{
+                              echo "<div class='col-md-2' align='center'><i class='fa fa-ban' aria-hidden='true'></i></div>";
+                         }
+                    ?>
+               </div>
+         </div>
+         <div class="d-flex flex-row justify-content-between custom-row-reglas">
+              <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Multar</strong></div>
+               <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5">
+                    <?php 
+                         if ($User == $IdPersRol OR $Lider_Semilla == $User AND $Estado_Semilla == 2 OR $Estado_Semilla == 3) {
+                              echo "<form action='?contenido=verMvto' method='POST' class='form-register'>
+                              <input type='hidden' name='Semilla' value='".$_GET['Semilla']."'>
+                              <input type='hidden' name='Ruta' value='detSemilla'>
+                              <input type='hidden' name='Presidente' value='".$User."'>
+                              <input name='VerMv' class='btn btn-danger btn-block' type='submit' value='Multar'/></form>";
+                         }else{
+                              echo "<div class='col-md-2' align='center'><i class='fa fa-ban' aria-hidden='true'></i></div>";
+                         }
+                    ?>
+               </div>
+         </div>
+         <div class='col-md-12'><hr></div>
+      <?php 
+      } 
 
-if ($Nro == 0) {
-  echo "<div class='col-md-12' colspan='8' align='center'>No hay integrantes inscritos.</div>"; 
-} ?> 
+      if ($Nro == 0) {
+      echo "<div class='d-flex w-100 text-align-center justify-content-center' align='center'>No hay integrantes inscritos.</div>"; 
+      } ?> 
 
-</div>
 <?php if ($Estado_Semilla == 2 OR $Estado_Semilla == 3) { ?>  
   <br>
   <form action='?contenido=verMvto' method='POST' class='form-register'>

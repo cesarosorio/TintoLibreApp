@@ -216,6 +216,10 @@ case 'detReglasSemilla':
   include ("includes/Semillas/detReglasSemilla.php"); 
 break;
 
+case 'detAhorradoSemilla':
+  include ("includes/Semillas/detAhorradoSemilla.php"); 
+break;
+
 case 'CambiarRol':
   include ("includes/Semillas/CambiarRol.php"); 
 break;
@@ -230,6 +234,10 @@ break;
 
 case 'verpsemillasreglas':
   include ("includes/verpsemillasreglas.php"); 
+break;
+
+case 'verpsemillasahorrado':
+  include ("includes/verpsemillasahorrado.php"); 
 break;
 
 case 'verpsemillasm':
