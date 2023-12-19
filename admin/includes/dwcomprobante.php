@@ -13,11 +13,13 @@ while ($Lee = mysqli_fetch_array($ListaSemillas)) {
  
 
 $Titulos[] = array('IdTitulo' => 1, 'Titulo' => '1. Total ahorro semilla');
-$Titulos[] = array('IdTitulo' => 2, 'Titulo' => '2. Total Fondo Social (aportes + multas)');
-$Titulos[] = array('IdTitulo' => 3, 'Titulo' => '3. Total Prestamos');
-$Titulos[] = array('IdTitulo' => 4, 'Titulo' => '4. Total intereses préstmos');
-$Titulos[] = array('IdTitulo' => 5, 'Titulo' => '5. Total intereses de ahorros e incentivos '); 
-$Titulos[] = array('IdTitulo' => 6, 'Titulo' => '6. Total depositos '); 
+$Titulos[] = array('IdTitulo' => 2, 'Titulo' => '2. Total Multas');
+$Titulos[] = array('IdTitulo' => 3, 'Titulo' => '2. Total Fondo Social');
+$Titulos[] = array('IdTitulo' => 4, 'Titulo' => '3. Total Prestamos');
+$Titulos[] = array('IdTitulo' => 5, 'Titulo' => '4. Total intereses préstmos');
+$Titulos[] = array('IdTitulo' => 6, 'Titulo' => '5. Total intereses de ahorros e incentivos '); 
+$Titulos[] = array('IdTitulo' => 7, 'Titulo' => '6. Total depositos ');
+$Titulos[] = array('IdTitulo' => 8, 'Titulo' => '7. Total Aporte Asociación ');
 
 ?>
 <ol class="breadcrumb"> 
@@ -46,11 +48,16 @@ $Titulos[] = array('IdTitulo' => 6, 'Titulo' => '6. Total depositos ');
             break;
 
             case 2:
-              $query = "SELECT IFNULL(SUM(mv.AporteSocial), 0)+(SELECT IFNULL(SUM(Valor_multa), 0) FROM mv_multa_semilla WHERE Id_semilla = mv.Id_semilla) Dato FROM mv_meta_semilla mv WHERE mv.Tipo IN (2, 3) AND mv.Id_semilla =$sm";
+
+              $query = "SELECT IFNULL(SUM(mmi.Valor_Multa), 0) Dato FROM mv_meta_semilla mv 
+              INNER JOIN usuario us ON us.Id_usuario = mv.Id_usuario 
+              LEFT JOIN multas_semilla ms ON ms.Id_semilla = mv.Id_semilla 
+              LEFT JOIN mv_multa_semilla mmi ON mmi.Id_multa = ms.Id AND mmi.Id_mvto = mv.Id AND ms.NombreMulta != 'Otras deducciones' 
+              WHERE mv.Id_semilla = $sm";
             break;
 
             case 3:
-              $query = "SELECT IFNULL(SUM(ValPrestamo), 0) Dato FROM prestamos WHERE Id_semilla =$sm";
+              $query = "SELECT IFNULL(SUM(mv.AporteSocial), 0) Dato FROM mv_meta_semilla mv WHERE mv.Tipo IN (2, 3) AND mv.Id_semilla =$sm";
             break;
 
             case 4:
@@ -58,10 +65,14 @@ $Titulos[] = array('IdTitulo' => 6, 'Titulo' => '6. Total depositos ');
             break;
 
             case 5:
+              $query = "SELECT IFNULL(SUM(ValPrestamo), 0) Dato FROM prestamos WHERE Id_semilla =$sm";
+            break;
+
+            case 6:
               $query = "SELECT IFNULL(SUM(Valor), 0) Dato FROM mv_meta_semilla WHERE Tipo = 3 AND Id_semilla =$sm";
             break; 
 
-            case 6:
+            case 7:
               $query = "SELECT 
                 (SELECT IFNULL(SUM(Valor), 0) Dato FROM mv_meta_semilla WHERE Tipo IN (2, 3) AND Id_semilla = $sm)+
                 (SELECT IFNULL(SUM(mv.AporteSocial), 0)+(SELECT IFNULL(SUM(Valor_multa), 0) FROM mv_multa_semilla WHERE Id_semilla = mv.Id_semilla) Dato FROM mv_meta_semilla mv WHERE mv.Tipo IN (2, 3) AND mv.Id_semilla = $sm)+
@@ -71,6 +82,10 @@ $Titulos[] = array('IdTitulo' => 6, 'Titulo' => '6. Total depositos ');
               AS Dato"; 
               
             break; 
+
+            case 8:
+              $query = "SELECT IFNULL(SUM(mv.Valor_multa), 0) Dato FROM mv_multa_semilla as mv INNER JOIN multas_semilla as ms WHERE mv.Id_semilla = $sm AND ms.NombreMulta LIKE '%Otras deducciones%' AND mv.Id_multa = ms.Id";              
+            break;
           } 
 
           $R=mysqli_fetch_assoc($conexion->query($query)); 
