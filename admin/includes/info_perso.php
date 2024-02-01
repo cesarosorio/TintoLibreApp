@@ -67,52 +67,7 @@ $Titular = $R['Titular'];
         </div>
         
         <div class="col-md-12" align="center"><hr></div>
-        
-        <div class="col-md-12" align="center"><strong>INFORMACION BANCARIA</strong></div>
 
-        <div class="col-md-12" align="center"><hr></div>
-
-        <div class="col-md-2">Banco</div>
-        <div class="col-md-2">
-            <div class="form-group">
-                <input list="Banco" class="form-control" type="text" name="Banco" value="<?php echo $IDBanco ?>" >
-                    <datalist id="Banco">
-                    <?php $query = $conexion -> query ("SELECT b.Id, b.Banco FROM bancos b");
-                        while ($admon = mysqli_fetch_array($query)) { 
-                            echo '<option value="'.$admon['Id'].'">'.$admon['Banco'].'</option>'; 
-                        }?>
-                    </datalist>
-            </div>
-        </div>
-        <div class="col-md-2">Tipo de cuenta</div>
-        <div class="col-md-2">
-            <div class="form-group">
-                <input list="Cuenta" class="form-control" type="text" name="Cuenta" value="<?php echo $TipoCuenta ?>" >
-                    <datalist id="Cuenta">
-                        <option value="Cuenta Corriente">Cuenta Corriente</option>
-                        <option value="Cuenta Ahorro">Cuenta Ahorro</option>
-                    </datalist>
-            </div>
-        </div>
-        <div class="col-md-2">Nro. Cuenta</div>
-        <div class="col-md-2">
-            <div class="form-group">
-                <input class="form-control" type="number" name="NroCuenta" value="<?php echo $NroCuenta ?>" > 
-            </div>
-        </div>
-
-        <div class="col-md-12" align="center"><hr></div>
-
-        <div class="col-md-3">Nombre del titular</div>
-        <div class="col-md-3">
-            <input class="form-control" type="text" name="Titular" value="<?php echo $Titular ?>" >
-        </div>
-        <div class="col-md-3">Documento del titular</div>
-        <div class="col-md-3">
-            <input class="form-control" type="number" name="CedulaTit" value="<?php echo $CedulaTit ?>" >
-        </div>
-
-        <div class="col-md-12" align="center"><hr></div>
 
         <div class="col-md-12">
             <input type="hidden" name="User" value="<?php echo $User ?>">
