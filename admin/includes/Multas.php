@@ -171,7 +171,7 @@ if (isset($_POST['MultarDef'])){
         	}
 	 	}else{
 	 		?><script languaje="javascript">
-	            alert("¡Se aplico la multa, pero no se realizo el descuento del fondo social, por favor informar!");
+	            alert("¡Se aplico la multa, pero no se realizo el descuento del fondo de emergencia, por favor informar!");
 	            window.location="?contenido=<?php echo $Da; ?>";
 	        </script><?php
 	 	}

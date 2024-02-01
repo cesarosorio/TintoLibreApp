@@ -14,7 +14,7 @@ while ($Lee = mysqli_fetch_array($ListaSemillas)) {
 
 $Titulos[] = array('IdTitulo' => 1, 'Titulo' => '1. Total ahorro semilla');
 $Titulos[] = array('IdTitulo' => 2, 'Titulo' => '2. Total Multas');
-$Titulos[] = array('IdTitulo' => 3, 'Titulo' => '2. Total Fondo Social');
+$Titulos[] = array('IdTitulo' => 3, 'Titulo' => '2. Total Fondo de Emergencia');
 $Titulos[] = array('IdTitulo' => 4, 'Titulo' => '3. Total Prestamos');
 $Titulos[] = array('IdTitulo' => 5, 'Titulo' => '4. Total intereses préstmos');
 $Titulos[] = array('IdTitulo' => 6, 'Titulo' => '5. Total intereses de ahorros e incentivos '); 
