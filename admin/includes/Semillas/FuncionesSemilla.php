@@ -59,7 +59,7 @@ $cabeceras = 'From: admin@tusemilla.com.co';
 $asunto = utf8_decode("¡Ya puedes acceder a tu semilla ".utf8_decode($nombre_semilla)."!");
 $mensaje="¡Hola ".utf8_decode($Name).", tu semilla ha sido creada de manera exitosa. 
 
-Puedes acceder con tu usuario y contraseña a través de la página https://app.tusemilla.com.co.  De ahora en adelante todo lo relacionado con ahorro, solicitud y pago de préstamos, pago de multas y aporte al Fondo Social lo harán a través de la plataforma. 
+Puedes acceder con tu usuario y contraseña a través de la página https://app.tusemilla.com.co.  De ahora en adelante todo lo relacionado con ahorro, solicitud y pago de préstamos, pago de multas y aporte al Fondo de Emergencia lo harán a través de la plataforma. 
 
 Nota: Para poder ingresar haz clic sobre el link o copialo y pegalo en la barra del navegador.
 
@@ -155,7 +155,7 @@ $cabeceras = 'From: admin@tusemilla.com.co';
 $asunto = utf8_decode("¡Ya puedes acceder a tu semilla ".utf8_decode($nombre_semilla)."!");
 $mensaje="¡Hola ".utf8_decode($Name).", tu semilla ha sido creada de manera exitosa. 
 
-Puedes acceder con tu usuario y contraseña a través de la página https://app.tusemilla.com.co.  De ahora en adelante todo lo relacionado con ahorro, solicitud y pago de préstamos, pago de multas y aporte al Fondo Social lo harán a través de la plataforma. 
+Puedes acceder con tu usuario y contraseña a través de la página https://app.tusemilla.com.co.  De ahora en adelante todo lo relacionado con ahorro, solicitud y pago de préstamos, pago de multas y aporte al Fondo de Emergencia lo harán a través de la plataforma. 
 
 Nota: Para poder ingresar haz clic sobre el link o copialo y pegalo en la barra del navegador.
 

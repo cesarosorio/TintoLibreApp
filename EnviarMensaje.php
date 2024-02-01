@@ -96,7 +96,7 @@ while ($dt = mysqli_fetch_array($Query)) {
     			CURLOPT_CUSTOMREQUEST => 'POST',
     			CURLOPT_POSTFIELDS =>'{
     				"toNumber": "57'.$celular.'",
-    				"sms": "Hola '.$nombre.', tu ahorro de este mes fue de $'.number_format($AhorroMes, 0).', el ahorro de tu semilla fue de $'.number_format($AhorroSemilla, 0).', y el total en el fondo social de tu semilla es de $'.number_format($FondoSemilla, 0).' correspondiente a tu semilla: '.$semilla.'. Att: TintoLibre. " , 
+    				"sms": "Hola '.$nombre.', tu ahorro de este mes fue de $'.number_format($AhorroMes, 0).', el ahorro de tu semilla fue de $'.number_format($AhorroSemilla, 0).', y el total en el fondo de emergencia de tu semilla es de $'.number_format($FondoSemilla, 0).' correspondiente a tu semilla: '.$semilla.'. Att: TintoLibre. " , 
     				"sc": "890202",
     				"request_dlvr_rcpt": 1					
     			}',

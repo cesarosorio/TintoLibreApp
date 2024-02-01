@@ -86,7 +86,7 @@ if (isset($_POST['Semilla'])) {
         <th align="center">Fecha</th> 
         <th align="center">Depósito</th> 
         <th align="center">Ahorro Individual</th> 
-        <th align="center">Fondo Social</th> 
+        <th align="center">Fondo de Emergencia</th> 
         <th align="center">Aporte Asociacion</th> 
         <th align="center">Préstamo</th> 
         <th align="center">Intereses préstamo</th> 

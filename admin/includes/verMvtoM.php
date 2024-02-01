@@ -10,18 +10,30 @@ if (isset($_GET['Semilla'])) {
   
   $Rol = (isset($R['Rol'])) ? $R['Rol'] : 0 ; 
 
-  if (isset($_POST['AUser'])) {
-    $segpers = "AND mv.Id_usuario = ".$_POST['AUser'];
-    $P=mysqli_fetch_assoc($conexion->query("SELECT Name FROM usuario u WHERE u.Id_usuario = ".$_POST['AUser'])); 
-    $Persona = $P['Name'];
-    $MensajeAhorro = "<strong>Ahorro de:</strong> ".$P['Name'];
-  }else{
-    $segpers = " ";
-    $Persona = "No elegida.";
-    $MensajeAhorro = "<strong>Ahorro de:</strong> ".$Nombre_Semilla;
-  }
 
-  $Cons = "SELECT mv.Id_usuario, pp.Id prestamo, mv.Id, mv.id_semilla, us.Name Nombre, mv.Fecha, mv.Valor Ahorro, mv.AporteSocial Fondo, IFNULL(mm.Valor_multa, 0) Asociacion, IFNULL(mp.Capital, 0) Capital, IFNULL(mp.Id, 'Pr') IdPrestamo, IFNULL(mp.Intereses, 0) Intereses, IFNULL(mmi.Valor_Multa, 0) Valor_Multa, IFNULL(mmi.Id, 'Mt') IdMulta, SUBSTRING(mv.Comprobante, 7) Comprobante FROM mv_meta_semilla mv INNER JOIN usuario us ON us.Id_usuario = mv.Id_usuario LEFT JOIN multas_semilla ms ON ms.Id_semilla = mv.Id_semilla LEFT JOIN mv_multa_semilla mm ON mm.Id_multa = ms.Id AND mm.Id_mvto = mv.Id AND ms.NombreMulta = 'Otras deducciones' LEFT JOIN mv_multa_semilla mmi ON mmi.Id_multa = ms.Id AND mmi.Id_mvto = mv.Id AND ms.NombreMulta != 'Otras deducciones' LEFT JOIN mv_prestamos_sem mp ON mp.Id_mvto = mv.Id LEFT JOIN prestamos pp ON pp.Id_semilla = mv.Id_semilla AND pp.Id_responsable = mv.Id_usuario AND pp.Tipo = 2 and pp.Estado = 6 WHERE mv.Id_semilla = $Sem $segpers GROUP BY mv.Id ORDER BY mv.Fecha DESC";
+  $consultauser ="SELECT u.Id_usuario, u.Name, u.rol as Permiso, r.Nombre_Rol FROM usuario u INNER JOIN rol r ON r.Id_Rol = u.Rol WHERE Nickname = '".$_SESSION['user']."'";
+  $datosUsuario=mysqli_fetch_assoc($conexion->query($consultauser));
+  $wherePersona = "";
+  if ($datosUsuario['Permiso'] == 5) {
+    $segpers = $Sem;
+    $wherePersona = "AND mv.Id_usuario = ".$datosUsuario['Id_usuario'];
+    $Persona = $datosUsuario['Name'];
+    $MensajeAhorro = "<strong>Ahorro de:</strong> ".$datosUsuario['Name'];
+  }
+  else {
+    if (isset($_POST['AUser'])) {
+      $segpers = "AND mv.Id_usuario = ".$_POST['AUser'];
+      $P=mysqli_fetch_assoc($conexion->query("SELECT Name FROM usuario u WHERE u.Id_usuario = ".$_POST['AUser'])); 
+      $Persona = $P['Name'];
+      $MensajeAhorro = "<strong>Ahorro de:</strong> ".$P['Name'];
+    }else{
+      $segpers = $Sem;
+      $Persona = "No elegida.";
+      $MensajeAhorro = "<strong>Ahorro de:</strong> ".$Nombre_Semilla;
+    }
+  }  
+
+  $Cons = "SELECT mv.Id_usuario, pp.Id prestamo, mv.Id, mv.id_semilla, us.Name Nombre, mv.Fecha, mv.Valor Ahorro, mv.AporteSocial Fondo, IFNULL(mm.Valor_multa, 0) Asociacion, IFNULL(mp.Capital, 0) Capital, IFNULL(mp.Id, 'Pr') IdPrestamo, IFNULL(mp.Intereses, 0) Intereses, IFNULL(mmi.Valor_Multa, 0) Valor_Multa, IFNULL(mmi.Id, 'Mt') IdMulta, SUBSTRING(mv.Comprobante, 7) Comprobante FROM mv_meta_semilla mv INNER JOIN usuario us ON us.Id_usuario = mv.Id_usuario LEFT JOIN multas_semilla ms ON ms.Id_semilla = mv.Id_semilla LEFT JOIN mv_multa_semilla mm ON mm.Id_multa = ms.Id AND mm.Id_mvto = mv.Id AND ms.NombreMulta = 'Otras deducciones' LEFT JOIN mv_multa_semilla mmi ON mmi.Id_multa = ms.Id AND mmi.Id_mvto = mv.Id AND ms.NombreMulta != 'Otras deducciones' LEFT JOIN mv_prestamos_sem mp ON mp.Id_mvto = mv.Id LEFT JOIN prestamos pp ON pp.Id_semilla = mv.Id_semilla AND pp.Id_responsable = mv.Id_usuario AND pp.Tipo = 2 and pp.Estado = 6 WHERE mv.Id_semilla = $segpers $wherePersona GROUP BY mv.Id ORDER BY mv.Fecha DESC";
   $MP = $conexion -> query ($Cons);
   $Multas = 0 ;
   $Ahorro = 0 ;
@@ -35,8 +47,10 @@ if (isset($_GET['Semilla'])) {
     <li class="breadcrumb-item active"><strong>Persona:</strong> <?php echo $Persona  ?></li>
 </ol>
 
-
-<form method='POST' class='form-register'>
+<?php
+if ($datosUsuario['Permiso'] != 5) {
+  ?>
+  <form method='POST' class='form-register'>
   <div class="row">
    <div class="col-md-4">
       <div class="form-group">
@@ -59,10 +73,9 @@ if (isset($_GET['Semilla'])) {
     <div class="col-md-4">
       <input type='hidden' name='Semilla' value="<?php echo $Sem ?>">  
       <input class='btn btn-dark btn-block' type='submit' value='Elegir persona'/>
-    </form>
     </div>
-</div> 
-
+  </div> 
+</form>
 
 <div class="row"> 
     <div class="col-md-4"></div>
@@ -74,7 +87,9 @@ if (isset($_GET['Semilla'])) {
     </form>
     </div>
 </div>
-
+<?php
+}
+?>
 <br>
 
 <meta charset="utf-8">
@@ -86,7 +101,7 @@ if (isset($_GET['Semilla'])) {
         <th align="center">Fecha</th> 
         <th align="center">Depósito</th> 
         <th align="center">Ahorro Individual</th> 
-        <th align="center">Fondo Social</th> 
+        <th align="center">Fondo de Emergencia</th> 
         <th align="center">Aporte Asociacion</th> 
         <th align="center">Préstamo</th> 
         <th align="center">Intereses préstamo</th> 
