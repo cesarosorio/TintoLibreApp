@@ -45,7 +45,7 @@ if (isset($_POST['SolPrestamo'])) {
 
 Estás recibiendo este correo porque﻿ ".utf8_decode($Responsable)." ha solicitado un préstamo de $".number_format($ValPrestamo)."﻿, por la siguiente razón: ".utf8_decode($Justificacion).".
 
-﻿De acuerdo al acta de la semilla es necesario que todos los integrantes indiquen si están de acuerdo o no en realizar este préstamo. Por tal razón, debes acceder a tu sesión en <a href='https://app.tusemilla.com.co' target='_blank'>TuSemilla</a> e ir a la opción 'Votar Prestamo' .
+﻿De acuerdo al acta de la semilla es necesario que todos los integrantes indiquen si están de acuerdo o no en realizar este préstamo. Por tal razón, debes acceder a tu sesión en TuSemilla (https://app.tusemilla.com.co), ir a la opción 'Votar Prestamo' .
 
 Te recordamos que el préstamo se aprobará si más de la mitad de los integrantes votan indicando que sí lo aprueba.
 
