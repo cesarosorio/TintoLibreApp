@@ -2,8 +2,10 @@
 
 if (isset($_POST['VerVota'])) {
 	$id_v = $_POST['id_v'];
-	$integrantes = $_POST['integrantes'];
-
+	$integrantes = 1;
+	if ($_POST['integrantes'] > 0) {
+		$integrantes = $_POST['integrantes'];
+	}
 	$R=mysqli_fetch_assoc($conexion -> query("SELECT Id_prestamo, Id_semilla FROM votaciones where id = $id_v"));
 	$Prestamo = $R['Id_prestamo'];
 	$Id_semilla = $R['Id_semilla'];
@@ -15,7 +17,7 @@ if (isset($_POST['VerVota'])) {
 	$Voto = $R['Voto'];
 
 	$R=mysqli_fetch_assoc($conexion->query("SELECT p.Id_responsable, p.URLComprobante, p.intereses, p.Estado, u.Name, c.Nombre_Semilla, p.Justificacion, p.ValOrigin, p.ValPrestamo, case when p.FechaSolicitud is null then 'No aplica' else p.FechaSolicitud end fs, case when p.FechaRespuesta is null then 'No aplica' else p.FechaRespuesta end fr, case when p.FechaPrestamo is null then 'No aplica' else p.FechaPrestamo end fp, es.EstadoPrestamo FROM prestamos p inner join usuario u on u.Id_usuario = p.Id_responsable inner join conformacion_semilla c on c.Id_Semilla = p.Id_semilla inner join estados_prestamos es on es.Id = p.Estado where p.id = $Prestamo"));
-
+	echo "SELECT p.Id_responsable, p.URLComprobante, p.intereses, p.Estado, u.Name, c.Nombre_Semilla, p.Justificacion, p.ValOrigin, p.ValPrestamo, case when p.FechaSolicitud is null then 'No aplica' else p.FechaSolicitud end fs, case when p.FechaRespuesta is null then 'No aplica' else p.FechaRespuesta end fr, case when p.FechaPrestamo is null then 'No aplica' else p.FechaPrestamo end fp, es.EstadoPrestamo FROM prestamos p inner join usuario u on u.Id_usuario = p.Id_responsable inner join conformacion_semilla c on c.Id_Semilla = p.Id_semilla inner join estados_prestamos es on es.Id = p.Estado where p.id = $Prestamo";
 	$cons = "SELECT u.Name, case when vp.opcion = 1 then 'Sí' else 'No' end as opcion, vp.Fecha FROM votaciones_part vp inner join usuario u on u.Id_usuario = vp.Id_persona WHERE id_votacion = $id_v";
 	$Query = $conexion->query($cons); 
 
@@ -89,9 +91,9 @@ if (isset($_POST['VerVota'])) {
 
 
 <?php 
-if ($Voto == 0 AND $User != $lider_semilla) {
+if (($Voto == 0 AND $User != $lider_semilla) || ($_POST['integrantes'] == 0 AND $User == $lider_semilla)) {
 
-	if ($User != $R['Id_responsable']) { ?>
+	if ($User != $R['Id_responsable'] || ($_POST['integrantes'] == 0 AND $User == $lider_semilla)) { ?>
 
 	<form action="includes/prestamos.php" method="POST" class="form-register">
 

@@ -1,6 +1,6 @@
 <?php 
 
-$R=mysqli_fetch_assoc($conexion->query("SELECT ms.Lider_Semilla, ms.Estado_Semilla, ms.FechaCierre, es.Nombre_Estado, ms.id_semilla, ms.Nombre_Semilla, ms.Fecha_Creacion, ms.ActaSemilla, CASE WHEN ms.TipoPago = 2 THEN CONCAT('Quincenal (Días: ', d.quimaximo, ' y ', d.quimaxidos, ')') ELSE CONCAT('Mensual ', '(Día: ', d.mesmaximo, ')') END AS TipoPago, ms.aportesocial, case when ms.Ultima_Modificacion is null then 'Sin modificar' else ms.Ultima_Modificacion end as Ultima_Modificacion, ms.minimo, ms.maximo FROM conformacion_semilla ms INNER JOIN estadosemillas es on es.Id_Estado = ms.Estado_Semilla LEFT JOIN diasparapago d on d.Id_semilla = ms.Id_Semilla WHERE ms.id_semilla =  ".$_GET['Semilla']));
+$R=mysqli_fetch_assoc($conexion->query("SELECT ms.Lider_Semilla, ms.Estado_Semilla, ms.FechaCierre, es.Nombre_Estado, ms.id_semilla, ms.Nombre_Semilla, ms.Fecha_Creacion, ms.ActaSemilla, CASE WHEN ms.TipoPago = 2 THEN CONCAT('Quincenal (Días: ', d.quimaximo, ' y ', d.quimaxidos, ')') ELSE CONCAT('Mensual ', '(Día: ', d.mesmaximo, ')') END AS TipoPago, ms.aportesocial, case when ms.Ultima_Modificacion is null then 'Sin modificar' else ms.Ultima_Modificacion end as Ultima_Modificacion, ms.montoPrestamo, ms.minimo, ms.maximo FROM conformacion_semilla ms INNER JOIN estadosemillas es on es.Id_Estado = ms.Estado_Semilla LEFT JOIN diasparapago d on d.Id_semilla = ms.Id_Semilla WHERE ms.id_semilla =  ".$_GET['Semilla']));
 $id_semilla = $R['id_semilla'];
 $Nombre_Semilla = $R['Nombre_Semilla'];
 $Fecha_Creacion = $R['Fecha_Creacion'];
@@ -15,6 +15,7 @@ $FechaCierre = $R['FechaCierre'];
 $Lider_Semilla = $R['Lider_Semilla'];
 $minimo = $R['minimo'];
 $maximo = $R['maximo'];
+$montoPrestamo = $R['montoPrestamo'];
 
 $VerIntegrantes ="SELECT ins.Rol as IdRol, (SELECT SUM(m.Valor) FROM mv_meta_semilla m WHERE m.Id_semilla = ins.Id_semilla and m.Id_usuario = ins.Id_persona and m.tipo in (2, 3)) as valorah , (SELECT SUM(m.Valor) FROM mv_meta_semilla m WHERE m.Id_semilla = ins.Id_semilla and m.Id_usuario = ins.Id_persona and m.tipo = 1 ) Incentivo, u.Id_usuario, u.Name, ins.Fecha, CASE WHEN ins.Estado = 1 THEN 'Activo' ELSE 'Inactivo' END AS Estado, Meta_personal, rs.Nombre AS Rol FROM integrantes_semilla ins INNER JOIN usuario u on u.Id_usuario = ins.Id_persona INNER JOIN rol_semilla rs ON rs.Id = ins.Rol WHERE ins.id_semilla = ".$_GET['Semilla']." ORDER BY u.Name ASC";
 $MP = $conexion->query($VerIntegrantes);
@@ -64,6 +65,10 @@ if ($Permiso == 2) {
   <div class="d-flex flex-row justify-content-between custom-row-reglas">
      <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Aporte Social</strong></div>
      <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5">$<?php echo number_format($aportesocial, 0) ?></div>
+  </div>
+  <div class="d-flex flex-row justify-content-between custom-row-reglas">
+     <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Monto de préstamo</strong></div>
+     <div class="d-flex w-100 justify-content-start custom-column-reglas padding-left-5">$<?php echo number_format($montoPrestamo, 0) ?></div>
   </div>
   <div class="d-flex flex-row justify-content-between custom-row-reglas">
      <div class="d-flex w-100 justify-content-end custom-column-reglas padding-right-5 text-align-end custom-border-right-reglas"><strong>Mínimo en consignación</strong></div>
