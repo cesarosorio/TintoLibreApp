@@ -27,7 +27,7 @@ if (isset($_POST['SolPrestamo'])) {
       $R=mysqli_fetch_assoc($conexion->query("SELECT u.Name FROM usuario u where u.Id_usuario = $Id_responsable"));
       $Responsable = $R['Name'];
 
-      $p=mysqli_fetch_assoc($conexion->query("SELECT MAX(id)+1 as prestamo from prestamos"));
+      $p=mysqli_fetch_assoc($conexion->query("SELECT MAX(id) as prestamo from prestamos"));
       $prestamo = $p['prestamo'];
       
       $DatMultas= $conexion->query("SELECT iss.Id_persona, u.Name, case when u.Correo is null then 'No' else u.Correo end as Correo from integrantes_semilla iss left join usuario u on u.Id_usuario = iss.Id_persona where iss.Id_semilla = $id_semilla"); 
