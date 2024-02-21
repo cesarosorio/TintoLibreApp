@@ -106,8 +106,9 @@ if (isset($_POST['aggm'])) {
     $aportesocial = $_POST['aportesocial'];
     $minimo = $_POST['minimo'];
     $maximo = $_POST['maximo']; 
+    $montoPrestamo = $_POST['montoprestamo']; 
 
-    $Actualizar = "UPDATE conformacion_semilla SET FechaCierre = '$FechaCierre', nombre_semilla = '$Nombre', aportesocial = $aportesocial, minimo = $minimo, maximo = $maximo WHERE id_semilla = $Sem";
+    $Actualizar = "UPDATE conformacion_semilla SET FechaCierre = '$FechaCierre', nombre_semilla = '$Nombre', aportesocial = $aportesocial, minimo = $minimo, maximo = $maximo, montoPrestamo = $montoPrestamo WHERE id_semilla = $Sem";
     if ($conexion -> query ($Actualizar)) {
         $ActPrinci = "UPDATE conformacion_semilla SET Ultima_modificacion = NOW() WHERE id_semilla = $Sem ";
         if ($conexion -> query ($ActPrinci)) { ?>

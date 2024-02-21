@@ -25,7 +25,11 @@ $Query = $conexion->query($cons);
         </tr></thead>
         <tbody>
 		<?php $n=1; while ($Le = mysqli_fetch_array($Query)) {
-			$val = ($Le['votadas'] == 0) ? $part = 0 : $part = ($Le['votadas']/$Le['Integrantes'])*100 ;
+			$valueToDiv = 1;
+            if ($Le['Integrantes'] > 0) {
+                $valueToDiv = $Le['Integrantes'];
+            }
+            $val = ($Le['votadas'] == 0) ? $part = 0 : $part = ($Le['votadas']/$valueToDiv)*100 ;
             echo "<tr>
             	<td>".$n++."</td>
             	<td>".$Le['tipo']."</td> 

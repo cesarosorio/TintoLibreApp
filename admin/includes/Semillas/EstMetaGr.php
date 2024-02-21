@@ -2,12 +2,13 @@
 include '../conexion.php';
 
 $Sem = $_POST['employee_id']; 
-$R=mysqli_fetch_assoc($conexion->query("SELECT ms.FechaCierre, ms.Nombre_Semilla, ms.aportesocial, ms.minimo, ms.maximo FROM conformacion_semilla ms WHERE ms.id_semilla =  ".$Sem)); ;
+$R=mysqli_fetch_assoc($conexion->query("SELECT ms.FechaCierre, ms.Nombre_Semilla, ms.aportesocial, ms.minimo, ms.maximo, ms.montoPrestamo FROM conformacion_semilla ms WHERE ms.id_semilla =  ".$Sem)); ;
 $Nombre_Semilla = $R['Nombre_Semilla']; 
 $aportesocial = $R['aportesocial'];
 $FechaCierre = $R['FechaCierre'];  
 $minimo = $R['minimo'];
 $maximo = $R['maximo'];
+$montoPrestamo = $R['montoPrestamo'];
 ?>
 <form method="POST" action="includes/Semillas/FuncionesSemilla.php" class="form-register" name="RVH">
 <div class="row">
@@ -29,6 +30,16 @@ $maximo = $R['maximo'];
   	<div class="col-md-7">
 		<div class="form-group">
 			<input class="form-control" type="number" name="aportesocial" value="<?php echo $aportesocial ?>" required>
+		</div>
+	</div>
+
+	<div class="col-md-5">
+		<label>Monto de préstamo</label>
+	</div>
+  	
+  	<div class="col-md-7">
+		<div class="form-group">
+			<input class="form-control" type="number" name="montoprestamo" value="<?php echo $montoPrestamo ?>" required>
 		</div>
 	</div>
 
